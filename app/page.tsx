@@ -3,7 +3,7 @@ import Image from 'next/image'
 export default function Home() {
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-12 gradient-conic max-w-7xl">
+    <main className="m-auto flex min-h-screen flex-col items-center justify-between p-12 gradient-conic max-w-7xl">
       <header className={"flex min-w-full h-12 justify-between items-center font-thin"}>
         <div className={"flex justify-start gap-8"}>
           <a href={"#"} className={"font-extralight text-m gradient-text tracking-widest"}>
